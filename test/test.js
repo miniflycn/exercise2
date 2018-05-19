@@ -11,7 +11,7 @@ describe('大数相加add方法', function () {
   })
   it('来了一个bug', function () {
     add('123', '123')
-      .should.equal('2463333')
+      .should.equal('246')
   })
   
   it('"843529812342341234"加上"236124361425345435"等于"1079654173767686669"', function () {
